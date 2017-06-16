@@ -13,6 +13,7 @@ class App extends Component {
             </div>
           </MediaQuery>
           <MediaQuery maxDeviceWidth={800}>
+            {/*<p></p>*/}
             <div className="contactCirclesSmall">
               <ContactType what="Phone" />
               <ContactType what="Email" />
